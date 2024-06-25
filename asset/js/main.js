@@ -1,26 +1,4 @@
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    loop: true, // Habilitar loop
-    autoplay: {
-        delay: 3000, // Tiempo de retraso entre slides (en milisegundos)
-        disableOnInteraction: false, // No desactivar autoplay después de la interacción del usuario
-    },
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
+
 
 
   //valdiación email

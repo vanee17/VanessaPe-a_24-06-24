@@ -29,7 +29,6 @@ require_once ("c://laragon/www/VanessaPeña_24-06-24/view/head/header.php");
     </div>
 
 </main>
-
 <?php
 require_once ("c://laragon/www/VanessaPeña_24-06-24/view/head/footer.php");
 ?>

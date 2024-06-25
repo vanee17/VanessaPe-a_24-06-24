@@ -46,6 +46,8 @@
 
 
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="asset/js/swiper.js"></script>
 <?php
     require_once("c://laragon/www/VanessaPeña_24-06-24/view/head/footer.php");
 ?>
