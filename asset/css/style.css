@@ -1,0 +1,198 @@
+body{
+    background: aliceblue;
+}
+
+.colorNavbar{
+    background-color: #8a0000;
+}
+footer{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    color: #e3c25e;
+    font-size: 0.8rem;
+}
+.titleBanner{
+    position: absolute;
+  background: #fff6;
+  padding: 18px;
+  border-radius: 18px;
+}
+
+.titleBanner h1{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.titleCar{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.menuLink{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.38rem;
+}
+.menuLink:hover{
+color: rgba(241, 230, 73, 0.911) !important;
+}
+
+.navbar-nav{
+    gap: 1.8rem;
+}
+.navbar-brand{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.titleReg{
+    background: #fff6;
+    padding: 18px;
+    border-radius: 18px;
+    position: absolute;
+}
+.titleReg h1{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+
+
+.swiper{
+    max-width: 45rem;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: #e3c25e;
+}
+.btn10{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.38rem;
+    padding: 10px 70px;
+    margin:10px 4px;
+    color: #8a0000;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display:inline-block;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  }
+
+  .btn10{
+    text-transform: uppercase!important;
+    letter-spacing: 2px;
+    color:#8a0000;
+    cursor: hand;
+    text-align: center;
+    text-transform: capitalize;
+    border: 1.5px solid #8a0000;
+    border-radius:50px;
+    position: relative;
+    overflow: hidden!important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background: transparent!important;
+    z-index:10;
+    
+}
+
+.btn10:hover{
+    border: 1px solid rgba(241, 230, 73, 0.911);
+    color: rgba(241, 230, 73, 0.911)!important;
+}
+.btn10::before {
+    content: '';
+    width: 0%;
+    height: 100%;
+    display: block;
+    background: #8a0000;
+    position: absolute;
+    -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg); 
+    transform: skewX(-20deg);   
+    left: -10%;
+    opacity: 1;
+    top: 0;
+    z-index: -12;
+    -moz-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+     box-shadow:2px 0px 14px rgba(0,0,0,.6);
+  } 
+
+.btn10::after {
+    content: '';
+    width: 0%;
+    height: 100%;
+    display: block;
+    background: rgba(241, 230, 73, 0.911);
+    position: absolute;
+  -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg); 
+    transform: skewX(-20deg);   
+    left: -10%;
+    opacity: 0;
+    top: 0;
+    z-index: -15;
+    -webkit-transition: all .94s cubic-bezier(.2,.95,.57,.99);
+    -moz-transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    -o-transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    box-shadow: 2px 0px 14px rgba(0,0,0,.6);
+}
+.btn10:hover::before, .btn1O:hover::before{
+  opacity:1;
+  width: 116%;
+}
+.btn10:hover::after, .btn1O:hover::after{
+  opacity:1;
+  width: 120%;
+}
+
+
+/*forms style*/
+
+
+.form-control{
+    border-radius: 15px;
+    border: 1.5px solid #e3c25e;
+}
+.form-control:focus{
+    border-radius: 15px;
+    border: 1.5px solid #e3c25e;
+    box-shadow: 0 0 0 .10rem #dac381 !important;
+}
+.form-check-input:checked {
+    background-color: #e3c25e !important;
+    border-color: #e3c25e !important;
+  }
+
+.formReg{
+    margin: 0 4rem;
+}
+
+.inputReg{
+    border: 1.5px solid #e3c25e;
+}
+
+
+.form-label, .form-check-label{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+}
